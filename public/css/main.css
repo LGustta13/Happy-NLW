@@ -1,0 +1,31 @@
+/*CSS: Cascate Style Sheet
+O que é uma regra CSS?
+Serão definidos os seletores*/
+
+
+*{  /*Diminuiu os espaçamentos entre as linhas*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    background: #EBF2F5;
+}
+
+/*Abaixo temos um exemplo de regra*/
+body, input, button, textarea{
+    /*font-weight:400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;*/
+    /*unidade rem, busca o tamanho da fonte da raiz (html)*/
+
+    font: 400 1.8rem/1 'Nunito', sans-serif;
+}
